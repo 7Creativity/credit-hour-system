@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>تكنولوجيا التعليم</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class=" bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class=" position-relative p-0">
+            
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0 ">
+            <a href="" class="navbar-brand p-0">
+                <!---- <h1 class="m-0"><i class="material-icons"  style="font-size:40px;">computer</i> تكنو  <span class="fs-5">      تعليم     </span></h1>--->
+                <img src="img/sub-img/tecno-logo.png" style="color: white; " alt="Logo">
+            </a>
+            <div class="collapse navbar-collapse tit" id="navbarCollapse">
+                <div class="navbar-nav mss-auto py-0 rtl">
+                    <a href="contact.html" class="nav-item nav-link  "><i class="fas fa-phone"></i></a>
+                    <a href="index.html" class="nav-item nav-link ">الشاشة الرئيسية</a>
+                    <a href="service.html" class="nav-item nav-link">الصفحات</a>
+                    <a href="project.html" class="nav-item nav-link">المقررات الدراسية</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">المحتوي</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="page-1.html" class="w-space list dropdown-item ">نظام الدراسة والتسجيل</a>
+                            <a href="page-2.html" class="w-space list dropdown-item "> التعديل في الفصل الدراسي</a>
+                            <a href="page-3.html" class="w-space list dropdown-item active">البرنامج الدراسي</a>
+                        </div>
+                    </div>
+                    <a href="page-4.html" class="nav-item nav-link"> نظام التقويم والامتحانات</a>
+                    <a href="about.html" class="nav-item nav-link">من نحن</a>
+                </div>
+            </div>
+        </nav>
+
+            <div class=" site-header py-5  mb-5">
+                <div class="container my-5 py-5 px-lg-5">
+                    <div class="row g-5 py-5">
+                        <div class="col-12 text-center">
+                            <h1 class="text-white animated zoomIn main-header w-space">البرنامج الدراسي </h1>
+                            <hr class="bg-white mx-auto mt-0" style="width: 90px;">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb justify-content-center">
+                                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+
+
+
+        <!-- Portfolio table Start -->
+        <div class="container-xxl py-5">
+                <!--****start subject**************-->
+                <section class="subject">
+                    <!--******title******-->
+                    <div id="sub3" class="container px-lg-5">
+                        <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
+                            <h6 class="position-relative d-inline text-primary ps-4">اعرف اكتر</h6>
+                            <h1 class="mt-2 w-space header-list"> البرنامج الدراسي </h1>
+                        </div>
+                    </div>
+                    <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="col-12 text-center rtl">
+                            <ul class="list-inline mb-5" id="portfolio-flters">
+                                <li class="btn px-3 pe-4 active" data-filter=".zero">الجميع</li>
+                                <li class="btn px-3 pe-4 " data-filter=".first"> المقررات </li>
+                                <li class="btn px-3 pe-4 " data-filter=".second"> التعلم عن بعد والتعلم الإلكتروني</li>
+                                <li class="btn px-3 pe-4" data-filter=".tired"> انتظام الطلاب</li>
+                                <li class="btn px-3 pe-4" data-filter=".fore"> إلغاء القيد</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row g-4 portfolio-container">
+                        <!----------****1****-->
+                        <div class=" portfolio-item first wow zoomIn" data-wow-delay="0.1s">
+                            <section class="table container-xxl rtl ">
+                                <!-----1-->
+                                <div class="row g-5 container-xxl py-5 w-space para ">
+                                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                                        <div class="line position-relative mb-4 pb-2 rtl">
+                                            <h2 class=" mt-2"> المقررات الخاصة </h2>
+                                        </div>
+                                        <p class="mb-4 rtl">
+                                            ١. يجوز لبعض لدارسين التسجيل في مقررات معينة بغرض الحصول على خبرة جديدة وليس بغرض الحصول على درجة علميه او
+                                            شهادة دراسية
+                                            وفي هذه الحالة يسدد الطالب الرسوم الدراسية المقررة لمقرر ولا يخصص له مرشد أكاديمي ويظهر هذا المقرر والنقاط
+                                            التي حصل
+                                            عليها الطالب في سجله الأكاديمي ويمكن له الحصول على افاده تفيد دراسته واجتيازه المقرر
+                                            <br>٢. يجوز لبعض الدارسين حضور مقرر كمستمع فقط بدون امتحان او حساب نقاط بشرط تسديد الرسوم الدراسية للمقرر
+                                            وتوصية منسق
+                                            البرنامج بوجود مكان يسمح بالدراسة ويرصد للطالب في هذه الحالة التقرير (au)
+                                        </p>
+                                        
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <img class="img-space img-fluid wow zoomIn" data-wow-delay="0.5s" src="img/images/20943613.jpg">
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class=" portfolio-item first wow zoomIn" data-wow-delay="0.1s">
+                            <section class="table  rtl">
+                                <!-------2-->
+                                <div class="row g-5 container-xxl py-5 w-space para rtl">
+                                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                                        <div class="line position-relative mb-4 pb-2 rtl">
+                                            <h2 class=" mt-2">نقل المقررات </h2>
+                                        </div>
+                                        <p class="mb-4 rtl">
+                                            يجوز نقل بعض المقررات التي درسها الطالب وأجتازها بنجاح في جامعة أخرى أو معهد علمي آخر، وذلك بعد توصية منسق
+                                            البرنامج
+                                            وموافقة مجلس القسم، ولجنة شئون التعليم والطلاب ومجلس الكلية، وبشرط أن تكون المقررات ضمن الخطة الدراسية
+                                            للبرنامج الدراسي
+                                        </p>
+                                        
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <img class="img-space img-fluid wow zoomIn" data-wow-delay="0.5s" src="img/images/30318.jpg">
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class=" portfolio-item first wow zoomIn" data-wow-delay="0.1s">
+                            <section class="table ">
+                                <!-------3-->
+                                <div class="row g-5 container-xxl py-5 w-space para">
+                                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                                        <div class="line position-relative mb-4 pb-2 rtl">
+                                            <h2 class=" mt-2">تغيير البرنامج الدراسي </h2>
+                                        </div>
+                                        <p class="mb-4 rtl">
+                                            ١. يجوز للطالب تغيير برنامجه الدراسي في الكلية، وذلك بعد اخذ راي المرشد الأكاديمي ومنسق البرنامج وتوصية مجلس
+                                            القسم ولجنة
+                                            شئون التعليم والطلاب وموافقة مجلس الكلية، بشرط حصول الطالب على مجموع القبول بالقسم المحول حسب قواعد التنسيق
+                                            الداخلي.
+                                            <br>٢. يمكن أن تحسب بعض المقررات التي اجتازها الطالب في برنامجه السابق (مقاصة)، بشرط أن يتم معادلتها بمقررات
+                                            البرنامج المحول
+                                            إليه، لقسم التربية الفنية فيشترط للتحويل إليه اجتياز اختبار القدرات الذي تعقده الكلية، ويشترط للتحويل منه
+                                            إلى الأقسام
+                                            الأخرى، حصوله على الحد الأدنى للقبول في عام الحصول على الثانوية العامة وقواعد التنسيق الداخلي في نفس العام.
+                                        </p>
+                                        
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <img class="img-space img-fluid wow zoomIn" data-wow-delay="0.5s"
+                                            src="img/images/online-survey-3d-render-laptop-form-with-ticks.jpg">
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <!-----*****2*****-->
+                        <div class=" portfolio-item second wow zoomIn" data-wow-delay="0.1s">
+                            <section class="table ">
+                                <div id="less2" class="row g-5 container-xxl py-5 w-space para ">
+                                    <div class=" wow fadeInUp" data-wow-delay="0.1s">
+                                        <div class="line position-relative mb-4 pb-2 rtl">
+                                            <h2 class=" mt-2">التعلم عن بعد والتعلم الإلكتروني </h2>
+                                        </div>
+                                        <p class="mb-4 rtl">
+                                            ١. يسمح النظام الدراسي للكلية وفق اللائحة الموحدة بالجامعة بتدريس كل او بعض المقررات الكترونيا عن طريق
+                                            الانترنت او
+                                            الفيديو او أي وسيلة من وسائل التعلم عن بعد بشرط موافقة مجلس الكلية
+                                            <br>۲ تصميم البرامج الإلكترونية وفق أسس علميه من خلال فريق متخصص يضم تربويون وعلميين من التخصص العلمي
+                                            ومتخصصين في البرامج
+                                            التفاعلية
+                                            <br>٣. تكون العملية التعليمية في المقررات الإلكترونية تفاعلية وتتبع القواعد لذلك.
+                                            <br>٤. لا يشترط حضور الطالب في حالة نظام البرامج التي تستخدم التعليم عن بعد.
+                                            <br>5. يسمح النظام الدراسي بتدريس بعض المقررات عن بعد عن طريق الانترنت او التليفزيون او وسيلة من وسائل
+                                            التعليم عن بشرط
+                                            موافقة مجلس الكلية وحسب طبيعة المقررات الدراسية يقرر تدرس مقرر او اكثر من جزء من مقرر بنمط التعليم
+                                            الهجين الذي يشمل
+                                            التعليم بنسبة 60%-70%وجها لوجه و30%-40%تعليم عن بعد يقررها المجلس العلى للجامعات بحيث تكون دراسة حسب
+                                            طبيعة المقرر كل
+                                            برنامج منة برامج الكلية وبنسبة تتفق مع طبيعة الدراسة لكل مقرر وبما يتفق مع الاهداف المرجوة من تدريس
+                                            المقرر والبرنامج وفي
+                                            جميع الأحوال يعرض الامر على مجلس شئون التعليم والطلاب بالجامعة للموافقة تمهيدا لعرضه على مجلس الجامعة
+                                            للاعتماد ويعقد
+                                            الامتحان النهائي داخل الحرم الجامعي وتتبع التعليمات المنظمة لذلك من حيث التفاعل مع المحاضر وتقديم
+                                            التقارير والدراسات
+                                            وخلافه وذلك تطبيقا لقانون تنظيم الجامعات وتعديلاته في هذا الشأن
+                                        </p>
+                                        
+                                    </div>
+                                
+                                    <div class="">
+                                        <img class="img-fluid wow zoomIn" data-wow-delay="0.5s" src="img/sub-img/man-with-laptop-holding-watch.jpg">
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <!--------******3****-->
+                        <div class=" portfolio-item tired wow zoomIn" data-wow-delay="0.3s">
+                            <section class="table  ">
+                                <div class="row g-5 container-xxl py-5 w-space para ">
+                                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                                        <div class="line position-relative mb-4 pb-2 rtl">
+                                            <h2 class=" mt-2"> انتظام الطلاب </h2>
+                                        </div>
+                                        <p class="mb-4 rtl">
+                                            1. يعد حضور الطلاب المشاركين في المرحلة الأساسية لانتظام العملية التعليمية، وينطبق ذلك على جميع المحاضرات
+                                            والدروس وورش
+                                            العمل والحلقة النقاشية وحصص التدريب العملي في المعامل.
+                                            <br>٢. إذا تجاوزت نسبة غياب الطالب في مقرر ۲٪ من مجموع ساعات ينذر أكاديمية.
+                                            <br>3. يحرم الطالب من دخول الامتحان النهائي للمقرر إذا تجاوزت نسبة غيابه 20٪ بغير عذر يقبله مجلس الكلية ويعد
+                                            الطالب راسبا في
+                                            هذا المقرر ويرصد له تقرير (F)، وفي حالة قبول العذر يعد الطالب منسحباً إجبارياً(fw)
+                                            <br>4. تنطبق هذه القواعد اضا على حالات التربية العملية ومشروع التخرج حيث يشترط انتظام الطلاب بصورة كاملة
+                                            ويعني عدم انتظام
+                                            الطلاب في الحضور الحرمان من الامتحان ويعبر غير مجتاز للمقرر
+                                            <br>5. اجتياز الطالب لمقررات التربية العملية ومشروع التخرج شرط أساسي للتخرج
+                                        </p>
+                                    </div>
+                                
+                                    <div class="col-lg-6">
+                                        <img class="img-fluid wow zoomIn" data-wow-delay="0.5s" src="img/sub-img/4904579.jpg">
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class=" portfolio-item tired wow zoomIn" data-wow-delay="0.3s">
+                            <section class="table  ">
+                                <div class="row g-5 container-xxl py-5 w-space para rtl">
+                                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                                        <div class="line position-relative mb-4 pb-2 rtl">
+                                            <h2 class=" mt-2"> الانقطاع عن الدراسة </h2>
+                                        </div>
+                                        <p class="mb-4 rtl">
+                                            ١. الطالب المستمر في الدراسة (ليس مستجداً) الذي سجل وانقطع عن الدراسة ولم يقدم طلب انسحاب يعامل معاملة
+                                            الغائب.
+                                            <br>٢. يعتبر الطالب منقطع عن الدراسة إذا انقطع مدة تزيد عن ثلاثة فصول دراسية وإذا تقدم بعذر مسبق يقبله مجلس
+                                            الكلية اما إذا
+                                            انقطع مدة لا تزيد عن ثلاثة فصول دراسية بعذر مسبق يقبله مجلس الكلية فيمكن له ان يواصل دراسته على ان يحتسب له
+                                            المقررات
+                                            السابق له النجاح فيها بدرجة مقبول على الأقل ويخضع تخرجه لاي متطلبات جديدة للفصل الذي اعيد قيده فيه.
+                                        </p>
+                                        
+                                    </div>
+                                
+                                    <div class="col-lg-6">
+                                        <img class="img-fluid wow zoomIn" data-wow-delay="0.5s" src="img/sub-img/4882646-removebg-preview.png">
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <!--------******4****-->
+                        <div class=" portfolio-item fore wow zoomIn" data-wow-delay="0.3s">
+                            <section class="table  ">
+                                <div class="row g-5 container-xxl py-5 w-space para">
+                                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                                        <div class="line position-relative mb-4 pb-2 rtl">
+                                            <h2 class=" mt-2"> إلغاء القيد </h2>
+                                        </div>
+                                        <p class="mb-4 rtl">
+                                            الطالب الذي يلغى قيده بناء على طلبه، أو تم إيقاف قيده طلب، أو تم إيقاف قيده جبرا طبقاً للقواعد المنصوص عليها
+                                            في انون
+                                            تنظيم الجامعات ولائحته التنفيذية ، لا يحق له العودة للدراسة ، إلا بعد تقديم طلب التحاق جديد موضحا به مبررات
+                                            العودة ،
+                                            وتوصية بالموافقة من مجلس من الكلية ، وتطبق القواعد الخاصة بوقف القيد وفقا لقانون تنظيم الجامعات ولائحته
+                                            التنفيذية
+                                            وتعديلاتها ، ويعامل الطالب معاملة الطالب المستمر بناء على وضعه السابق في الكلية قبل إلغاء قيده.
+                                        </p>
+                                        
+                                    </div>
+                                
+                                    <div class="col-lg-6">
+                                        <img class="img-fluid wow zoomIn" data-wow-delay="0.5s" src="img/sub-img/4904579.jpg">
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class=" portfolio-item fore wow zoomIn" data-wow-delay="0.3s">
+                            <section class="table  ">
+                                <div class="row g-5 container-xxl py-5 w-space para rtl">
+                                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                                        <div class="line position-relative mb-4 pb-2 rtl">
+                                            <h2 class=" mt-2"> الفصل من الكلية </h2>
+                                        </div>
+                                        <p class="mb-4 rtl">
+                                            يتم فصل الطالب من الكلية في الحالات التالية:
+                                            <br>1. تجاوز عدد مرات الانسحاب المسوح بها في اللائحة.
+                                            <br>2. إذا انقطع الدراسة بدون عذر يقبله مجلس الكلية طبقا لقانون تنظيم الجامعات.
+                                            <br>3. إذا لم ينهي دراسته في المدة القصوى التي يحددها قانون تنظيم الجامعات ولائحته التنفيذية
+                                            <br>4. إذا حصل على إنذارين أكاديميين خلال فصلين دراسيين متتاليين او حصل على ثلاث إنذارات أكاديمية خلال
+                                            دراسته في الكلية.
+                                            <br>5. إذا صدر بحقه قرار فصل بسبب سوء السلوك أو الأخلاق.
+                                            <br>6. إذا حرم من دخول الامتحان النهائي لجميع المقررات لفصلين دراسيين
+                                            <br>7.الفصول في جميع الأحوال لا يجوز فصل الطالب بما يخالف المادة (۸۰) من اللائحة من قانون تنظيم الجامعات.
+                                
+                                        </p>
+                                    
+                                    </div>
+                                
+                                    <div class="col-lg-6">
+                                        <img class="img-fluid wow zoomIn" data-wow-delay="0.5s" src="img/sub-img/4882646-removebg-preview.png">
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </section>
+        </div>
+            <!-- Portfolio End -->
+
+
+        <!-- Footer Start -->
+        <footer class="site-footer">
+
+
+            <div class="container-fluid bg-primary text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+                <div class="container py-5 px-lg-5">
+                    <div class="row g-5">
+                        <div class=" col-lg-3">
+                            <img src="img/sub-img/تاتاااges-removebg-preview.png" style="width: 100%">
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <h5 class="text-white mb-4">Connect With Us</h5>
+                            <p><i class="fa fa-map-marker-alt me-3"></i>Univercity Street, Fayoum, Egypt</p>
+                            <p><i class="fa fa-phone-alt me-3"></i>+010 680 723 09</p>
+                            <p><i class="fa fa-envelope me-3"></i><a href="https://www.fayoum.edu.eg/spec/"
+                                    style="color: white;">fayoum.edu.eg<a></a></p>
+                            <div class="d-flex pt-2">
+                                <a class="btn btn-outline-light btn-social" href="https://www.fayoum.edu.eg/spec/"><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-outline-light btn-social" href="https://www.fayoum.edu.eg/spec/"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-light btn-social" href="https://www.fayoum.edu.eg/spec/"><i
+                                        class="fab fa-youtube"></i></a>
+                                <a class="btn btn-outline-light btn-social" href="https://www.fayoum.edu.eg/spec/"><i
+                                        class="fab fa-instagram"></i></a>
+                                <a class="btn btn-outline-light btn-social" href="https://www.fayoum.edu.eg/spec/"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <h5 class="text-white mb-4"> تصفح الموقع</h5>
+                            <a class="btn btn-link" href="index.html">الشاشة الرئيسية</a>
+                            <a class="btn btn-link" href="service.html">الصفحات</a>
+                            <a class="btn btn-link" href="project.html"> المقررات الدراسية</a>
+                            <a class="btn btn-link" href="page-1.html">المحتوي</a>
+                            <a class="btn btn-link" href="page-4.html">نظام التقويم والامتحانات</a>
+                        </div>
+
+                        <div class="col-md-6 col-lg-3">
+                            <h5 class="text-white mb-4">Connect With Us</h5>
+                            <p>you can Connect with us by gmail message</p>
+                            <div class="position-relative w-100 mt-3">
+                                <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text"
+                                    placeholder="Your Email" style="height: 48px;">
+                                <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i
+                                        class="fa fa-paper-plane text-primary fs-4"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container px-lg-5">
+                    <div class="copyright">
+                        <div class="row">
+                            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                                &copy; <a class="border-bottom" href="#">Educational Tecnology</a>
+                            </div>
+                            <div class="col-md-6 text-center text-md-end">
+                                <div class="footer-menu">
+                                    <a href="">Home</a>
+                                    <a href="#">Contact</a>
+                                    <a href="#">Help</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

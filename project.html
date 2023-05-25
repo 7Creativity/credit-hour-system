@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>تكنولوجيا التعليم</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class=" bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class=" position-relative p-0">
+            
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0 ">
+                <a href="" class="navbar-brand p-0">
+                    <!---- <h1 class="m-0"><i class="material-icons"  style="font-size:40px;">computer</i> تكنو  <span class="fs-5">      تعليم     </span></h1>--->
+                    <img src="img/sub-img/tecno-logo.png" style="color: white; " alt="Logo">
+                </a>
+                <div class="collapse navbar-collapse tit" id="navbarCollapse">
+                    <div class="navbar-nav mss-auto py-0 rtl">
+                        <a href="contact.html" class="nav-item nav-link "><i class="fas fa-phone"></i></a>
+                        <a href="index.html" class="nav-item nav-link ">الشاشة الرئيسية</a>
+                        <a href="service.html" class="nav-item nav-link">الصفحات</a>
+                        <a href="project.html" class="nav-item nav-link active">المقررات الدراسية</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">المحتوي</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="page-1.html" class="w-space list dropdown-item ">نظام الدراسة والتسجيل</a>
+                                <a href="page-2.html" class="w-space list dropdown-item "> التعديل في الفصل الدراسي</a>
+                                <a href="page-3.html" class="w-space list dropdown-item ">البرنامج الدراسي</a>
+                            </div>
+                        </div>
+                        <a href="page-4.html" class="nav-item nav-link"> نظام التقويم والامتحانات</a>
+                        <a href="about.html" class="nav-item nav-link">من نحن</a>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="site-header py-5  mb-5 ">
+                <div class="container my-5 py-5 px-lg-5">
+                    <div class="row g-5 py-5">
+                        <div class="col-12 text-center">
+                            <h1 class="text-white animated zoomIn main-header w-space">المقررات الدراسية</h1>
+                            <hr class="bg-white mx-auto mt-0" style="width: 90px;">
+                            <nav aria-label="breadcrumb">
+                                <ol class=" justify-content-center">
+                                    <span class=""><a class="text-white" href="#">توزيع المقررات الدراسية</a></span>
+                                    <br><span class=""><a class="text-white" href="#">توزيع الساعات المعتمدة على المقررات
+                                            الدراسية</a></span>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- Portfolio table Start -->
+        <div class="container-xxl py-5">
+            <div>
+                <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="position-relative d-inline text-primary ps-4"> اعرف اكتر</h6>
+                    <h2 class="mt-2">المقررات الدراسية</h2>
+                </div>
+                <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-12 text-center rtl">
+                        <ul class="list-inline mb-5" id="portfolio-flters">
+                            <li class="btn px-3 pe-4 active" data-filter=".zero">الجميع</li>
+                            <li class="btn px-3 pe-4 " data-filter=".first">المقررات الدراسية</li>
+                            <li class="btn px-3 pe-4 " data-filter=".second"> المقررات الدراسيه الاجباريه والاختياريه للبرامج الدراسيه</li>
+                            <li class="btn px-3 pe-4" data-filter=".tired">توزيع الساعات المعتمدة علي الفصول الدراسية</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row g-4 portfolio-container">
+                    <!----------1-->
+                    <div class=" portfolio-item first wow zoomIn" data-wow-delay="0.1s">
+                        <section class="table  rtl">
+                            <table class="table-content">
+                                <caption>أولا : المقررات الاجبارية</caption>
+                                <thead>
+                                    <tr>
+                                        <th rowspan="2">
+                                            <h1>الكود</h1>
+                                        </th>
+                                        <th rowspan="2">
+                                            <h1> المقرر</h1>
+                                        </th>
+                                        <th colspan="2">
+                                            <h1> عدد الساعات التدريسيه</h1>
+                                        </th>
+                                        <th rowspan="2">
+                                            <h1> عدد الساعات المعتمده</h1>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            نظري
+                                        </th>
+                                        <th>
+                                            عملي / تطبيقي
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>TEC101</td>
+                                        <td> مدخل الي تكنولوجيا التعليم </td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>3 ساعات</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC102</td>
+                                        <td> مقدمه في الحاسب الالي </td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>3 ساعات</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC103</td>
+                                        <td> مراكز مصادر التعلم </td>
+                                        <td>2</td>
+                                        <td>---</td>
+                                        <td>2 ساعتان</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC104</td>
+                                        <td> بحوث الفعل في التخصص</td>
+                                        <td>2</td>
+                                        <td>---</td>
+                                        <td>2 ساعتان</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC105</td>
+                                        <td>اساسيات التصوير الرقمي    </td>
+                                        <td>2</td>
+                                        <td>4</td>
+                                        <td>4 ساعات</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC106</td>
+                                        <td> مصادرالتعلم السمعيه الرقميه  </td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>3 ساعات</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC107</td>
+                                        <td> أساسيات شبكات الحاسب الالي والانترنت</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>3 ساعات</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC201</td>
+                                        <td> التصوير الرقمي والثقافه البصريه </td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>3 ساعات</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC202</td>
+                                        <td> قواعد البيانات </td>
+                                        <td>2</td>
+                                        <td>4</td>
+                                        <td>4 ساعات</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC203</td>
+                                        <td> اداره الفصول الرقميه </td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>3 ساعات</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC204</td>
+                                        <td> الرسومات الرقميه الثابته </td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>3 ساعات</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC205</td>
+                                        <td> نظم اداره التعليم الالكتروني  </td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>3 ساعات</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC206</td>
+                                        <td> تطبيقات الهواتف النقاله</td>
+                                        <td>2</td>
+                                        <td>4</td>
+                                        <td>3 ساعات</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC207</td>
+                                        <td>لغات البرمجه المتطورة(1) </td>
+                                        <td>2</td>
+                                        <td>4</td>
+                                        <td>3 ساعات</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC301</td>
+                                        <td>لغات البرمجه المتطورة(2) </td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>3 ساعات</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC302</td>
+                                        <td> برامج الفيديو والتلفزيون التعليمي</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>3 ساعات</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC303</td>
+                                        <td>التعلم المدمج </td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>3 ساعات</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC304</td>
+                                        <td>مشكلات الحاسب الالي </td>
+                                        <td>1</td>
+                                        <td>4</td>
+                                        <td>4 ساعات</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC305</td>
+                                        <td> تدريب ميداني (1) </td>
+                                        <td>---</td>
+                                        <td>4</td>
+                                        <td>4 ساعات</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC306</td>
+                                        <td> التقويم الالكتروني</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>3 ساعات</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC307</td>
+                                        <td>تكنولوجيا الويب </td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>3 ساعات</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC308</td>
+                                        <td>المكتبات الرقميه </td>
+                                        <td>2</td>
+                                        <td>---</td>
+                                        <td>3 ساعات</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC309</td>
+                                        <td> الجولات الافتراضيه</td>
+                                        <td>2</td>
+                                        <td>---</td>
+                                        <td>2 ساعتان</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC3010</td>
+                                        <td> تدريب ميداني (2)</td>
+                                        <td>---</td>
+                                        <td>4</td>
+                                        <td>2 ساعتان</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC401</td>
+                                        <td> </td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>3 ساعات</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC401</td>
+                                        <td>بيئات التعلم الالكترونيه </td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>3 ساعات</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC402</td>
+                                        <td>تكنولوجياالوسائطالمتعدده الرقميه </td>
+                                        <td>2</td>
+                                        <td>4</td>
+                                        <td>2 ساعتان</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC403</td>
+                                        <td>قراءات باللغه الانجليزيه ( في التخصص)</td>
+                                        <td>1</td>
+                                        <td>---</td>
+                                        <td>2 ساعتان</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC404</td>
+                                        <td> تدريب ميداني (3)</td>
+                                        <td>---</td>
+                                        <td>4</td>
+                                        <td>2 ساعتان</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC405</td>
+                                        <td>مشروع التخرج </td>
+                                        <td>---</td>
+                                        <td>4</td>
+                                        <td>2 ساعتان</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC406</td>
+                                        <td>تطبيقات في التعليم الالكتروني </td>
+                                        <td>2</td>
+                                        <td>4</td>
+                                        <td>2 ساعتان</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC407</td>
+                                        <td>تكنولوجيا التعليم للطفوله المبكرة </td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>3 ساعات</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC408</td>
+                                        <td> الاحصاءالتطبيقي</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>4 ساعات</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC409</td>
+                                        <td> تدريب ميداني (4)</td>
+                                        <td>---</td>
+                                        <td>4</td>
+                                        <td>ساعه</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </section>
+                    </div>
+                    <div class=" portfolio-item first wow zoomIn" data-wow-delay="0.1s">
+                        <section class="table  rtl">
+                            <table class="table-content">
+                                <caption>ثانيا : المقررات الاختياريه (12ساعة معتمده)</caption>
+                                <thead>
+                                    <tr>
+                                        <th rowspan="2">
+                                            <h1>الكود</h1>
+                                        </th>
+                                        <th rowspan="2">
+                                            <h1> المقرر</h1>
+                                        </th>
+                                        <th colspan="2">
+                                            <h1> عدد الساعات التدريسيه</h1>
+                                        </th>
+                                        <th rowspan="2">
+                                            <h1> عدد الساعات المعتمده</h1>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            نظري
+                                        </th>
+                                        <th>
+                                            عملي / تطبيقي
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>TEC 01E</td>
+                                        <td> الاتجاهات الحديثه في تكنولوجيا التعليم </td>
+                                        <td>2</td>
+                                        <td>---</td>
+                                        <td>2 ساعتان</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC 02E</td>
+                                        <td> المتاحف الافتراضيه  </td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>3 ساعات</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC 03E</td>
+                                        <td> الجرائم الالكترونيه </td>
+                                        <td>1</td>
+                                        <td>---</td>
+                                        <td>ساعه</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC 04E</td>
+                                        <td> الاتجاهات الحديثه في نظم التعليم</td>
+                                        <td>2</td>
+                                        <td>---</td>
+                                        <td>2 ساعتان</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC 05E</td>
+                                        <td>مقدمه في التصميم التعليمي </td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>2 ساعتان</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC 06E</td>
+                                        <td> تطبيقات في التصميم التعليمي</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td> 3 ساعات</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC 07E</td>
+                                        <td> المواطنه الرقميه وتطبيقاتها في التعليم</td>
+                                        <td>2</td>
+                                        <td>---</td>
+                                        <td>2 ساعتان</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC 08E</td>
+                                        <td> تكنولوجيا التعليم الفردي والذاتي </td>
+                                        <td>1</td>
+                                        <td>---</td>
+                                        <td>ساعه</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC 09E</td>
+                                        <td> أمن البيانات والمعلومات </td>
+                                        <td>1</td>
+                                        <td>---</td>
+                                        <td>ساعه</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC 10E</td>
+                                        <td> كفايات أخصائي تكنولوجيا التعليم</td>
+                                        <td>2</td>
+                                        <td>---</td>
+                                        <td>2 ساعتان</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC 11E</td>
+                                        <td> النظم الخبيرة ( نظم التعليم الذكيه والخبيرة) </td>
+                                        <td>2</td>
+                                        <td>---</td>
+                                        <td>2 ساعتان</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC 12E</td>
+                                        <td> الدراما التعليميه ومسرحه المناهج</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>3 ساعات</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC 13E</td>
+                                        <td> تصميم المواقع الالكترونيه التعليميه</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>3 ساعات</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC 14E</td>
+                                        <td> بيئات التعلم الافتراضيه</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>3 ساعات</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC 15E</td>
+                                        <td> توظيف النمذجه والمحاكاة في التعليم</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>3 ساعات</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TEC 16E</td>
+                                        <td>اداره المحتوي التعليمي عبر الانترنت </td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>3 ساعات</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </section>
+                    </div>
+                    <!----------2-->
+                    <div class=" portfolio-item second wow zoomIn" data-wow-delay="0.1s">
+                        <section class="table  rtl">
+                            <table class="table-content">
+                                <caption>أولا : متطلبات الجامعه من المقررات الاجباريه (4 ساعات معتمدة):</caption>
+                                <thead>
+                                    <tr>
+                                        <th rowspan="2">
+                                            <h1>الكود</h1>
+                                        </th>
+                                        <th rowspan="2">
+                                            <h1> المقرر</h1>
+                                        </th>
+                                        <th colspan="2">
+                                            <h1> عدد الساعات التدريسيه</h1>
+                                        </th>
+                                        <th rowspan="2">
+                                            <h1> عدد الساعات المعتمده</h1>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            نظري
+                                        </th>
+                                        <th>
+                                            عملي / تطبيقي
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>UN101</td>
+                                        <td>حقوق الانسان ومكافحه الفساد</td>
+                                        <td>1</td>
+                                        <td>---</td>
+                                        <td>ساعه</td>
+                                    </tr>
+                                    <tr>
+                                        <td>UNl202</td>
+                                        <td>مهارات التفكير وحل المشكلات</td>
+                                        <td>1</td>
+                                        <td>---</td>
+                                        <td>ساعه</td>
+                                    </tr>
+                                    <tr>
+                                        <td>UNl403</td>
+                                        <td>أخلاقيات المهنه</td>
+                                        <td>2</td>
+                                        <td>---</td>
+                                        <td>ساعتان</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </section>
+                    </div>
+                    <div class=" portfolio-item second wow zoomIn" data-wow-delay="0.1s">
+                        <section class="table  rtl">
+                            <table class="table-content">
+                                <caption>ثانيا : متطلبات الجامعه من المقررات الاخباريه ( ساعات معتمده)</caption>
+                                <thead>
+                                    <tr>
+                                        <th rowspan="2">
+                                            <h1>الكود</h1>
+                                        </th>
+                                        <th rowspan="2">
+                                            <h1> المقرر</h1>
+                                        </th>
+                                        <th colspan="2">
+                                            <h1> عدد الساعات التدريسيه</h1>
+                                        </th>
+                                        <th rowspan="2">
+                                            <h1> عدد الساعات المعتمده</h1>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            نظري
+                                        </th>
+                                        <th>
+                                            عملي / تطبيقي
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>UNl004E</td>
+                                        <td> الاداره الحديثه</td>
+                                        <td>1</td>
+                                        <td>---</td>
+                                        <td>ساعه</td>
+                                    </tr>
+                                    <tr>
+                                        <td>UNl005E</td>
+                                        <td> نظم المعلومات </td>
+                                        <td>1</td>
+                                        <td>---</td>
+                                        <td>ساعه</td>
+                                    </tr>
+                                    <tr>
+                                        <td>UNl006E</td>
+                                        <td>العلوم المستقبليه </td>
+                                        <td>1</td>
+                                        <td>---</td>
+                                        <td>---</td>
+                                    </tr>
+                                    <tr>
+                                        <td>UNl007E</td>
+                                        <td> الكتابه العلميه باللغه العربيه</td>
+                                        <td>1</td>
+                                        <td>---</td>
+                                        <td>ساعه</td>
+                                    </tr>
+                                    <tr>
+                                        <td>UNl008E</td>
+                                        <td>الكتابه العلميه باللغه الانجليزيه </td>
+                                        <td>1</td>
+                                        <td>---</td>
+                                        <td>ساعه</td>
+                                    </tr>
+                                    <tr>
+                                        <td>UNl009E</td>
+                                        <td> العلوم النفسيه وتطبيقاتها في الحياة</td>
+                                        <td>1</td>
+                                        <td>---</td>
+                                        <td>ساعه</td>
+                                    </tr>
+                                    <tr>
+                                        <td>UNl0010E</td>
+                                        <td> الصحه العامه</td>
+                                        <td>1</td>
+                                        <td>---</td>
+                                        <td>ساعه</td>
+                                    </tr>
+                                    <tr>
+                                        <td>UNl0011E</td>
+                                        <td> اداره المشروعات</td>
+                                        <td>1</td>
+                                        <td>---</td>
+                                        <td>ساعه</td>
+                                    </tr>
+                                    <tr>
+                                        <td>UNl0012E</td>
+                                        <td> صناعة السياحه</td>
+                                        <td>1</td>
+                                        <td>---</td>
+                                        <td>ساعه</td>
+                                    </tr>
+                                    <tr>
+                                        <td>UNl0013E</td>
+                                        <td> ريادة الاعمال</td>
+                                        <td>1</td>
+                                        <td>---</td>
+                                        <td>ساعه</td>
+                                    </tr>
+                                    <tr>
+                                        <td>UNl0014E</td>
+                                        <td>الذكاء الاصطناعي </td>
+                                        <td>1</td>
+                                        <td>---</td>
+                                        <td>ساعه</td>
+                                    </tr>
+                                    <tr>
+                                        <td>UNl0015E</td>
+                                        <td> الفكر السياسي والاقتصادي</td>
+                                        <td>1</td>
+                                        <td>---</td>
+                                        <td>ساعه</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </section>
+                    </div>
+                    <!----------3-->
+                    <div class=" portfolio-item tired wow zoomIn" data-wow-delay="0.3s">
+                        <section class="table  rtl">
+                            <table class="table-content">
+                                <caption>جدول توزيع الساعات المعتمدة علي الفصول الدراسية لبرنامج (أخصائي تكنولوجيا التعليم)
+                                </caption>
+                                <thead>
+                                    <tr>
+                                        <th rowspan="2">
+                                            <h1>المستوي</h1>
+                                        </th>
+                                        <th rowspan="2">
+                                            <h1> الفصل الدراسي</h1>
+                                        </th>
+                                        <th colspan="2">
+                                            <h1>متطلبات جامعه</h1>
+                                        </th>
+                                        <th>
+                                            <h1>متطلب كلية</h1>
+                                        </th>
+                                        <th colspan="2">
+                                            <h1>متطلب برنامج</h1>
+                                        </th>
+                                        <th rowspan="2">
+                                            <h1> الحد الاقصي</h1>
+                                            <h1>لكل فصل دراسي</h1>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            اجباري
+                                        </th>
+                                        <th>
+                                            اختياري
+                                        </th>
+                                        <th>
+                                            اجباري
+                                        </th>
+                                        <th>
+                                            اجباري
+                                        </th>
+                                        <th>
+                                            اختياري
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td rowspan="2">الاول</td>
+                                        <td>الفصل الدراسي الخريفي</td>
+                                        <td>---</td>
+                                        <td>1</td>
+                                        <td>4</td>
+                                        <td>10</td>
+                                        <td>3</td>
+                                        <td>18</td>
+                                    </tr>
+                                    <tr>
+                                        <td>الفصل الدراسي الربيعي</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>4</td>
+                                        <td>10</td>
+                                        <td>2</td>
+                                        <td>18</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="2">الثاني</td>
+                                        <td>الفصل الدراسي الخريفي</td>
+                                        <td>---</td>
+                                        <td>1</td>
+                                        <td>6</td>
+                                        <td>9</td>
+                                        <td>3</td>
+                                        <td>19</td>
+                                    </tr>
+                                    <tr>
+                                        <td>الفصل الدراسي الربيعي</td>
+                                        <td>1</td>
+                                        <td>---</td>
+                                        <td>4</td>
+                                        <td>14</td>
+                                        <td>---</td>
+                                        <td>19</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="2">الثالث</td>
+                                        <td>الفصل الدراسي الخريفي</td>
+                                        <td>---</td>
+                                        <td>---</td>
+                                        <td>6</td>
+                                        <td>13</td>
+                                        <td>---</td>
+                                        <td>19</td>
+                                    </tr>
+                                    <tr>
+                                        <td>الفصل الدراسي الربيعي</td>
+                                        <td>---</td>
+                                        <td>---</td>
+                                        <td>4</td>
+                                        <td>12</td>
+                                        <td>3</td>
+                                        <td>19</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="2">الرابع</td>
+                                        <td>الفصل الدراسي الخريفي</td>
+                                        <td>2</td>
+                                        <td>1</td>
+                                        <td>4</td>
+                                        <td>10</td>
+                                        <td>---</td>
+                                        <td>17</td>
+                                    </tr>
+                                    <tr>
+                                        <td>الفصل الدراسي الربيعي</td>
+                                        <td>4</td>
+                                        <td>---</td>
+                                        <td>4</td>
+                                        <td>14</td>
+                                        <td>1</td>
+                                        <td>19</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">المجموع</td>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>36</td>
+                                        <td>92</td>
+                                        <td>12</td>
+                                        <td>148</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio End -->
+        </div>
+        
+
+        <!-- Footer Start -->
+        <footer class="site-footer">
+        
+        
+            <div class="container-fluid bg-primary text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+                <div class="container py-5 px-lg-5">
+                    <div class="row g-5">
+                        <div class=" col-lg-3">
+                            <img src="img/sub-img/تاتاااges-removebg-preview.png" style="width: 100%">
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <h5 class="text-white mb-4">Connect With Us</h5>
+                            <p><i class="fa fa-map-marker-alt me-3"></i>Univercity Street, Fayoum, Egypt</p>
+                            <p><i class="fa fa-phone-alt me-3"></i>+010 680 723 09</p>
+                            <p><i class="fa fa-envelope me-3"></i><a href="https://www.fayoum.edu.eg/spec/"
+                                    style="color: white;">fayoum.edu.eg<a></a></p>
+                            <div class="d-flex pt-2">
+                                <a class="btn btn-outline-light btn-social" href="https://www.fayoum.edu.eg/spec/"><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-outline-light btn-social" href="https://www.fayoum.edu.eg/spec/"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-light btn-social" href="https://www.fayoum.edu.eg/spec/"><i
+                                        class="fab fa-youtube"></i></a>
+                                <a class="btn btn-outline-light btn-social" href="https://www.fayoum.edu.eg/spec/"><i
+                                        class="fab fa-instagram"></i></a>
+                                <a class="btn btn-outline-light btn-social" href="https://www.fayoum.edu.eg/spec/"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <h5 class="text-white mb-4"> تصفح الموقع</h5>
+                            <a class="btn btn-link" href="index.html">الشاشة الرئيسية</a>
+                            <a class="btn btn-link" href="service.html">الصفحات</a>
+                            <a class="btn btn-link" href="project.html"> المقررات الدراسية</a>
+                            <a class="btn btn-link" href="page-1.html">المحتوي</a>
+                            <a class="btn btn-link" href="page-4.html">نظام التقويم والامتحانات</a>
+                        </div>
+        
+                        <div class="col-md-6 col-lg-3">
+                            <h5 class="text-white mb-4">Connect With Us</h5>
+                            <p>you can Connect with us by gmail message</p>
+                            <div class="position-relative w-100 mt-3">
+                                <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text"
+                                    placeholder="Your Email" style="height: 48px;">
+                                <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i
+                                        class="fa fa-paper-plane text-primary fs-4"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container px-lg-5">
+                    <div class="copyright">
+                        <div class="row">
+                            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                                &copy; <a class="border-bottom" href="#">Educational Tecnology</a>
+                            </div>
+                            <div class="col-md-6 text-center text-md-end">
+                                <div class="footer-menu">
+                                    <a href="">Home</a>
+                                    <a href="#">Contact</a>
+                                    <a href="#">Help</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </footer>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up"></i></a>
+    
+</div>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
