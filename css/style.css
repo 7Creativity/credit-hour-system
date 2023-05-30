@@ -515,12 +515,12 @@ h6::after {
 
 /*** Project Portfolio ***/
 .col-00{
-    width: 85%;
+    width: 80%;
     margin: 0 auto;
 }
 .col-0 {
     flex: 0 0 auto;
-    width: 50%;
+    width: 48%;
 }
 #portfolio-flters .btn {
     display: inline-block;
